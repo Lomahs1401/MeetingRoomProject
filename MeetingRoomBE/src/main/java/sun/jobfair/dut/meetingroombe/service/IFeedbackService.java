@@ -1,4 +1,6 @@
 package sun.jobfair.dut.meetingroombe.service;
 
-public interface IFeedbackService {
+import sun.jobfair.dut.meetingroombe.model.feedback.Feedback;
+
+public interface IFeedbackService extends IService<Feedback, String> {
 }

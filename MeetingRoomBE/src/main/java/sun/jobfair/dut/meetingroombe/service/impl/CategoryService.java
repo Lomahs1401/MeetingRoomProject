@@ -1,31 +1,31 @@
 package sun.jobfair.dut.meetingroombe.service.impl;
 
 import org.springframework.stereotype.Service;
-import sun.jobfair.dut.meetingroombe.model.user.User;
-import sun.jobfair.dut.meetingroombe.service.IUserService;
+import sun.jobfair.dut.meetingroombe.model.equipment.Category;
+import sun.jobfair.dut.meetingroombe.service.ICategoryService;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UserService implements IUserService {
+public class CategoryService implements ICategoryService {
     @Override
-    public List<User> getAll() {
+    public List<Category> getAll() {
         return null;
     }
 
     @Override
-    public Optional<User> getById(String id) {
+    public Optional<Category> getById(String id) {
         return Optional.empty();
     }
 
     @Override
-    public User save(User entity) {
+    public Category save(Category entity) {
         return null;
     }
 
     @Override
-    public User update(User entity) {
+    public Category update(Category entity) {
         return null;
     }
 
