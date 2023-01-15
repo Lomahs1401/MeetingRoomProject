@@ -1,4 +1,6 @@
 package sun.jobfair.dut.meetingroombe.service;
 
-public interface IEquipmentService {
+import sun.jobfair.dut.meetingroombe.model.equipment.Equipment;
+
+public interface IEquipmentService extends IService<Equipment, String> {
 }

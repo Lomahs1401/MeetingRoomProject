@@ -1,4 +1,6 @@
 package sun.jobfair.dut.meetingroombe.service;
 
-public interface IUserService {
+import sun.jobfair.dut.meetingroombe.model.user.User;
+
+public interface IUserService extends IService<User, String> {
 }
